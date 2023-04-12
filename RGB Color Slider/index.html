@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title -->
+    <title>RGB Color Slider</title>
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container flex-col">
+        <!-- Heading -->
+        <h1>RGB Color Slider</h1>
+        <h2>With JavaSript</h2>
+        <!-- Sliders box -->
+        <div class="sliders flex-col">
+            <!-- RGB -->
+            <div>
+                <label for="red">R</label>
+                <input type="range" name="red" id="red" min="0" max="255">
+            </div>
+            <div>
+                <label for="green">G</label>
+                <input type="range" name="green" id="green" min="0" max="255">
+            </div>
+            <div>
+                <label for="blue">B</label>
+                <input type="range" name="blue" id="blue" min="0" max="255">    
+            </div>
+            <!-- Display button -->
+            <div class="display">rgb(128, 128, 128)</div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
